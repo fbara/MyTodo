@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD8C7BF426FD256400988DF9 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8C7BF326FD256400988DF9 /* FileManager+Extension.swift */; };
 		ADA1B4DD26FB71BD00EF8BED /* ToDoFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1B4DC26FB71BD00EF8BED /* ToDoFormViewModel.swift */; };
 		ADA1B4E026FB732B00EF8BED /* ToDoFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1B4DF26FB732B00EF8BED /* ToDoFormView.swift */; };
 		ADA1B4E226FB769300EF8BED /* ModalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1B4E126FB769300EF8BED /* ModalType.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD8C7BF326FD256400988DF9 /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
 		ADA1B4DC26FB71BD00EF8BED /* ToDoFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFormViewModel.swift; sourceTree = "<group>"; };
 		ADA1B4DF26FB732B00EF8BED /* ToDoFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFormView.swift; sourceTree = "<group>"; };
 		ADA1B4E126FB769300EF8BED /* ModalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalType.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD8C7BF226FD255600988DF9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD8C7BF326FD256400988DF9 /* FileManager+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		ADA1B4DE26FB726300EF8BED /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +80,7 @@
 		ADA77F0126FA2C6200F2183F /* MyTodo */ = {
 			isa = PBXGroup;
 			children = (
+				AD8C7BF226FD255600988DF9 /* Extensions */,
 				ADA77F0226FA2C6200F2183F /* MyTodoApp.swift */,
 				ADA77F1326FB6D1000F2183F /* ViewModels */,
 				ADA77F1026FA2CB400F2183F /* Models */,
@@ -177,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA1B4E026FB732B00EF8BED /* ToDoFormView.swift in Sources */,
+				AD8C7BF426FD256400988DF9 /* FileManager+Extension.swift in Sources */,
 				ADA1B4E226FB769300EF8BED /* ModalType.swift in Sources */,
 				ADA77F1226FA2CC900F2183F /* ToDo.swift in Sources */,
 				ADA77F1526FB6D2000F2183F /* DataStore.swift in Sources */,
