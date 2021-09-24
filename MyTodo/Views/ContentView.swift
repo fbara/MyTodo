@@ -43,6 +43,9 @@ struct ContentView: View {
             }
         }
         .sheet(item: $modalType) { $0 }
+        .alert(item: $dataStore.appError) { appError in
+            Alert(title: Text("Error"), message: Text(appError.error.localizedDescription))
+        }
     }
 }
 

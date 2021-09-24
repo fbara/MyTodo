@@ -17,6 +17,7 @@
 		ADA77F0A26FA2C6400F2183F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA77F0926FA2C6400F2183F /* Preview Assets.xcassets */; };
 		ADA77F1226FA2CC900F2183F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA77F1126FA2CC900F2183F /* ToDo.swift */; };
 		ADA77F1526FB6D2000F2183F /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA77F1426FB6D2000F2183F /* DataStore.swift */; };
+		ADC3860726FE109A00EE2CBA /* ToDoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC3860626FE109A00EE2CBA /* ToDoError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		ADA77F0926FA2C6400F2183F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADA77F1126FA2CC900F2183F /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		ADA77F1426FB6D2000F2183F /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		ADC3860626FE109A00EE2CBA /* ToDoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				ADA77F1126FA2CC900F2183F /* ToDo.swift */,
 				ADA1B4E126FB769300EF8BED /* ModalType.swift */,
+				ADC3860626FE109A00EE2CBA /* ToDoError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				ADA77F1226FA2CC900F2183F /* ToDo.swift in Sources */,
 				ADA77F1526FB6D2000F2183F /* DataStore.swift in Sources */,
 				ADA77F0526FA2C6200F2183F /* ContentView.swift in Sources */,
+				ADC3860726FE109A00EE2CBA /* ToDoError.swift in Sources */,
 				ADA77F0326FA2C6200F2183F /* MyTodoApp.swift in Sources */,
 				ADA1B4DD26FB71BD00EF8BED /* ToDoFormViewModel.swift in Sources */,
 			);
